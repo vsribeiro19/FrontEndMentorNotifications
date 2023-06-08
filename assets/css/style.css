@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* ### Colors Fonts
@@ -34,3 +35,36 @@
     --font-neutralDarkBlue-color: hsl(219, 12%, 42%);
     --font-neutralVeryDarkBlue-color: hsl(224, 21%, 14%);
 }
+
+/* HEADER */
+
+.header {
+    max-width: 90%;
+    height: 2rem;
+    margin: 1rem auto;
+    /* border: 1px solid red; */
+}
+
+.header_title_notifications {
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+}
+
+.header_text_notifications {
+    color: var(--font-neutralVeryDarkBlue-color);
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.header_box_number_notifications {
+    width: 1.3rem;
+    height: 1.4rem;
+    background-color: var(--font-primaryBlue-color);
+    color: var(--font-neutralWhite-color);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20%;
+}
+
+/* END HEADER */
