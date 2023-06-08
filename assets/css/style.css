@@ -69,7 +69,11 @@
     border-radius: 20%;
 }
 
+<<<<<<< HEAD
 .header span, .header_box_number_notifications span {
+=======
+.header_box_number_notifications span{
+>>>>>>> cf0de9262728a846e3129b889d6a229f866b1660
     cursor: pointer;
 }
 
