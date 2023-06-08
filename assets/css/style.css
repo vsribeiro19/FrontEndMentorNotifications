@@ -1,5 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* ### Colors Fonts
+
+- Red: hsl(1, 90%, 64%)
+- Blue: hsl(219, 85%, 26%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%) */
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+:root {
+    --font-primaryRed-color: hsl(1, 90%, 64%);
+    --font-primaryBlue-color: hsl(219, 85%, 26%);
+    --font-neutralWhite-color: hsl(0, 0%, 100%);
+    --font-neutralBlue-color: hsl(210, 60%, 98%);
+    --font-neutralBlue1-color: hsl(211, 68%, 94%);
+    --font-neutralBlue2-color: hsl(205, 33%, 90%);
+    --font-neutralBlue-color: hsl(219, 14%, 63%);
+    --font-neutralDarkBlue-color: hsl(219, 12%, 42%);
+    --font-neutralVeryDarkBlue-color: hsl(224, 21%, 14%);
 }
