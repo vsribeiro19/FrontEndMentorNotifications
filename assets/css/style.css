@@ -7,6 +7,10 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+body {
+    background-color: var(--font-neutralWhite-color);
+}
+
 /* ### Colors Fonts
 
 - Red: hsl(1, 90%, 64%)
@@ -28,7 +32,7 @@
     --font-primaryRed-color: hsl(1, 90%, 64%);
     --font-primaryBlue-color: hsl(219, 85%, 26%);
     --font-neutralWhite-color: hsl(0, 0%, 100%);
-    --font-neutralBlue-color: hsl(210, 60%, 98%);
+    --font-neutralLightBlue-color: hsl(210, 60%, 98%);
     --font-neutralBlue1-color: hsl(211, 68%, 94%);
     --font-neutralBlue2-color: hsl(205, 33%, 90%);
     --font-neutralBlue-color: hsl(219, 14%, 63%);
@@ -37,7 +41,6 @@
 }
 
 /* HEADER */
-
 .header {
     max-width: 90%;
     height: 2rem;
@@ -78,5 +81,44 @@
     font-weight: 500;
 }
 
-
 /* END HEADER */
+.notifications {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+/* MAIN */
+.card_notification {
+    display: flex;
+    align-items: center;
+    max-height: fit-content;
+    background-color: var(--font-neutralLightBlue-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* border: 1px solid orange; */
+    padding: 1rem;
+}
+
+.card_notification p{
+    /* border: 1px solid rebeccapurple; */
+    padding: 0 10px;
+}
+
+.card_notification img {
+    width: 10%;
+    height: max-content;
+    background-size: cover;
+    
+}
+
+.user_name {
+    color: var(--font-neutralVeryDarkBlue-color);
+    font-weight: 800;
+}
+
+.text_emphasis {
+    color: var(--font-neutralDarkBlue-color);
+    font-weight: 800;
+}
+
+/* END MAIN */
