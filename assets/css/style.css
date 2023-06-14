@@ -11,23 +11,6 @@ body {
     background-color: var(--font-neutralWhite-color);
 }
 
-/* ### Colors Fonts
-
-- Red: hsl(1, 90%, 64%)
-- Blue: hsl(219, 85%, 26%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Very light grayish blue: hsl(210, 60%, 98%)
-- Light grayish blue 1: hsl(211, 68%, 94%)
-- Light grayish blue 2: hsl(205, 33%, 90%)
-- Grayish blue: hsl(219, 14%, 63%)
-- Dark grayish blue: hsl(219, 12%, 42%)
-- Very dark blue: hsl(224, 21%, 14%) */
-/* - Mobile: 375px
-- Desktop: 1440px */
-
 :root {
     --font-primaryRed-color: hsl(1, 90%, 64%);
     --font-primaryBlue-color: hsl(219, 85%, 26%);
@@ -82,13 +65,13 @@ body {
 }
 
 /* END HEADER */
-section {
+.notifications {
     margin: 0 auto;
     max-width: 90%;
 }
 
 /* MAIN */
-.card_notification_pin {
+.card_notification {
     display: flex;
     align-items: start;
     max-height: fit-content;
@@ -98,21 +81,14 @@ section {
     padding: 1rem;
 }
 
-.card_notification {
-    display: flex;
-    align-items: start;
-    max-height: fit-content;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 1rem;
-}
-
-.card_notification_pin, .card_notification p {
+.card_notification p {
+    /* border: 1px solid rebeccapurple; */
+    /* padding: 0 10px; */
     color: var(--font-neutralBlue-color);
-    font-weight: 600;
+    font-weight: 800;
 }
 
-.card_notification_pin img, .card_notification img {
+.card_notification img {
     width: 10%;
     height: max-content;
     background-size: cover;
@@ -128,18 +104,6 @@ section {
 .text_emphasis {
     color: var(--font-neutralDarkBlue-color);
     font-weight: 800;
-}
-
-.text_link_emphasis {
-    color: var(--font-neutralDarkBlue-color);
-    font-weight: 800;
-    text-decoration: none;
-    color: var(--font-primaryBlue-color);
-}
-
-.post_time {
-    color: var(--font-neutralBlue-color);
-    font-weight: 500;
 }
 
 /* END MAIN */
