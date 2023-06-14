@@ -60,7 +60,7 @@ body {
 }
 
 .header_text_read_notifications {
-    color: var(--font-neutralDarkBlue-color);
+    color: var( --font-neutralDarkBlue-color);
     font-weight: 500;
 }
 
