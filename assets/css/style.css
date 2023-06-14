@@ -60,18 +60,14 @@ body {
 }
 
 .header_text_read_notifications {
-    color: var( --font-neutralDarkBlue-color);
+    color: var(--font-neutralDarkBlue-color);
     font-weight: 500;
 }
 
 /* END HEADER */
-.notifications {
-    margin: 0 auto;
-    max-width: 90%;
-}
 
 /* MAIN */
-.card_notification {
+.card_notification_pin {
     display: flex;
     align-items: start;
     max-height: fit-content;
@@ -81,14 +77,24 @@ body {
     padding: 1rem;
 }
 
+.card_notification {
+    display: flex;
+    align-items: start;
+    max-height: fit-content;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 1rem;
+}
+
+.card_notification_pin,
 .card_notification p {
-    /* border: 1px solid rebeccapurple; */
-    /* padding: 0 10px; */
+    border: 1px solid rebeccapurple;
     color: var(--font-neutralBlue-color);
     font-weight: 800;
 }
 
-.card_notification img {
+.card_notification_pin,
+.card_notificatio img {
     width: 10%;
     height: max-content;
     background-size: cover;
